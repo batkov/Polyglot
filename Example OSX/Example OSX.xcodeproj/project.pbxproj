@@ -12,7 +12,7 @@
 		8861BEA41BAD5EF90067DECF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8861BEA31BAD5EF90067DECF /* Assets.xcassets */; };
 		8861BEA71BAD5EF90067DECF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8861BEA51BAD5EF90067DECF /* Main.storyboard */; };
 		8861BEB11BAD63E00067DECF /* Polyglot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8861BEB01BAD63E00067DECF /* Polyglot.framework */; };
-		8861BEB31BAD64BE0067DECF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8861BEB21BAD64BE0067DECF /* Localizable.strings */; settings = {ASSET_TAGS = (); }; };
+		8861BEB31BAD64BE0067DECF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8861BEB21BAD64BE0067DECF /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -100,6 +100,7 @@
 				TargetAttributes = {
 					8861BE9B1BAD5EF90067DECF = {
 						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -247,6 +248,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.negusoft.Polyglot-OSX";
 				PRODUCT_NAME = "Polyglot Example";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -259,6 +261,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.negusoft.Polyglot-OSX";
 				PRODUCT_NAME = "Polyglot Example";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

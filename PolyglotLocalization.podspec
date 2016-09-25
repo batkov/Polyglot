@@ -15,4 +15,7 @@ Pod::Spec.new do |s|
   s.osx.source_files = 'Polyglot/Source/NS*.swift'
 
   s.requires_arc = true
+  s.pod_target_xcconfig = {
+                 'SWIFT_VERSION' => '3.0'
+               }
 end

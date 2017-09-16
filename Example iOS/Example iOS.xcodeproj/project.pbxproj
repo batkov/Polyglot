@@ -111,7 +111,6 @@
 				TargetAttributes = {
 					22F4969B1BA3110600EE5EBA = {
 						CreatedOnToolsVersion = 6.4;
-						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -272,7 +271,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.negusoft.Polyglot-iOS";
 				PRODUCT_NAME = "Example iOS";
-				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -285,7 +283,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.negusoft.Polyglot-iOS";
 				PRODUCT_NAME = "Example iOS";
-				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
